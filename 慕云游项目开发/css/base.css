@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "PingFangScregular";
-    src: url('../fonts/PingFangSCRegular.ttf') format('tryetype')
+    font-family: "PingFangSCRegular";
+    src: url('../fonts/PingFangSCRegular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'iconfont';
@@ -18,29 +18,28 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-body{
-    font-family:"PingFangScregular"
+body {
+    font-family: "PingFangSCRegular";
 }
-.clearfix{
-    overflow:hidden;
-}
-.clearfix::after{
-    content:'';
-    display:block;
-    clear:both;
-    overflow:hidden;
-}
-
 .center-wrap {
     width: 1152px;
     margin: 0 auto;
 }
+.clearfix {
+    overflow: hidden;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
 .db {
-    display:block;
+    display: block;
 }
 .dib {
-    display:inline-block;
+    display: inline-block;
 }
 .tac {
-    text-align:center;
+    text-align: center;
 }
