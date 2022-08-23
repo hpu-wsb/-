@@ -41,7 +41,7 @@
             }, 500);
         }
         //设置小圆点
-        setCircles()
+        setCircles();
         //开锁
         setTimeout(function () {
             lock = true;
